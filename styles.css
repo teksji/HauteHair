@@ -1,0 +1,334 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+td {
+    text-align: right;
+}
+th {
+    text-align: left;
+}
+em{
+    font-weight: 700;
+    color: #95662B;
+}
+/*Title Section*/
+#title{
+    background-image: linear-gradient(rgba(0,0,0,100),rgba(0,0,0,0)), url("images/title-section.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 3.5% 5% 3%;
+}
+.brand-title{
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    background-image: linear-gradient(to right, #95662B, #D8C690, #FAF29F, #D8C690, #95662B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-links{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+.nav-list{
+    padding: 0 18px;
+}
+.navbar{
+    padding: 0 0 16rem;
+}
+.navbar-btn{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #CBB26A;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    transition: ease .5s
+}
+.navbar-btn:hover{
+    background-color: #CBB26A;
+    transition: ease .3s
+}
+.title-quote{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.btn-appoint{
+    margin: 3% 3% 5% 0;
+}
+.fab-icon{
+    margin-right: 8px;
+}
+/*Features Section*/
+#features{
+    padding: 7% 14%;
+    text-align: center;
+}
+.feature-col{
+    padding: 5%;
+}
+.fa-icon{
+    color: #D8C690;
+    margin: 1rem;
+}
+.fa-icon:hover{
+    background-image: linear-gradient(#FAF29F, #D8C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+/*Testimonials Section*/
+#testimonials{
+    background-image: linear-gradient(to right, #95662B, #D8C690, #95662B);
+    text-align: center;
+    color: white;
+    height: 650px;
+}
+.carousel-header{
+    padding: 5% 14%;
+}
+.carousel-item{
+    padding: 5% 14%;
+}
+.testimonial-text{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    object-fit: cover;
+}
+/*Location Section*/
+#location{
+    background-image: linear-gradient(rgba(0,0,0,100), #95662B);
+    text-align: center;
+    color: white;
+}
+.map-header{
+    padding: 2% 14%;
+}
+.map{
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+}
+.map iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+/*Services Section*/
+#services{
+    background-image: linear-gradient(225deg, #555555, black);
+    text-align: center;
+    color: white;
+    padding: 3% 75px;
+}
+.services-header,.services-btn{
+    padding: 3% 14%;
+}
+.card{
+    padding: 0;
+}
+.card:hover{
+    background-image: linear-gradient(195deg, #95662B, #D8C690, #FAF29F, #D8C690, #D8C690, #95662B);
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+.card-title{
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.ser-btn{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #CBB26A;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
+    transition: ease .5s;
+}
+.ser-btn:hover{
+    background-color: #CBB26A;
+    transition: ease .3s
+}
+/*CTA Section*/
+#cta{
+    background-image: url(images/facemask.jpg);
+    background-size: 135%;
+    background-repeat: no-repeat;
+    background-position: 0 36%;
+    padding: 5% 10%;
+}
+.cta-header{
+    position: relative;
+    height: 500px;
+}
+.quote-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.cta-quote{
+    font-weight: 700;
+    font-size: 2.75rem;
+    color: white;
+}
+/*Footer Section*/
+#footer{
+    background-color: black;
+    text-align: center;
+    padding: 5% 14%;
+}
+.foot-icon{
+    color: #dfaa1c;
+    padding: 20px 10px;
+}
+.footer-caption{
+    color: #95662B;
+}
+
+@media (max-width: 1024px){
+    .title-quote{
+        font-size: 3.5rem;
+    }
+    .map{
+        height: 650px;
+    }
+    #services{
+        padding: 3% 20px;
+    }
+    .cta-quote{
+        font-size: 3.3rem;
+    }
+}
+
+@media (max-width: 768px){
+    #navbarScroll.show{
+        position: absolute;
+        right: 5px;
+        top: 80px;
+        text-align: right;
+    }
+    .title-quote{
+        font-size: 4.5rem;
+    }
+    .map{
+        height: 650px;
+    }
+    #services{
+        padding: 3% 20px;
+    }
+}
+
+@media (max-width: 320px){
+    #title{
+        height: 610px;
+    }
+    .navbar{
+        padding: 0 0 12rem;
+    }
+    #navbarScroll.show{
+        position: absolute;
+        right: 5px;
+        top: 80px;
+        text-align: right;
+    }
+    .title-header{
+        text-align: center;
+    }
+    .title-quote{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    .fa-icon{
+        font-size: 2.5rem;
+    }
+    .feature-title{
+        font-size: 1rem;
+    }
+    .feature-caption{
+        font-size: .75rem;
+    }
+    #services{
+        padding: 3% 15px;
+    }
+    .card-img-top{
+        height: 100px;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+    th,td{
+        font-size: .75rem;
+    }
+    #testimonials{
+        height: 315px;
+    }
+    .testimonial-text{
+        font-size: 1rem;
+    }
+    .testimonial-image{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+    em{
+        color: black;
+        font-size: .75rem;
+    }
+    .location-caption{
+        font-size: .75rem;
+    }
+    .map{
+        height: 475px;
+    }
+    #cta{
+        background-size: 200%;
+        background-position: 47% 40%;
+        padding: 5% 4%;
+        text-align: center;
+    }
+    .cta-header{
+        height: 400px;
+    }
+    .cta-quote{
+        font-size: 2rem;
+    }
+    .footer-caption{
+        font-size: .75rem;
+    }
+}
